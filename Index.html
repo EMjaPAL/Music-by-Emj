@@ -1,0 +1,88 @@
+# Music-by-Emj
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music by Emj</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .song {
+            margin: 25px 0;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 10px;
+        }
+
+        audio {
+            width: 100%;
+            margin: 15px 0;
+        }
+
+        a.download {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        a.download:hover {
+            background: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎵 Music by Emj</h1>
+
+    <p>Willkommen auf meiner Musikseite!</p>
+
+    <div class="song">
+        <h2>Meine erste Aufnahme</h2>
+
+        <audio controls>
+            <source src="mein-song.mp3" type="audio/mpeg">
+            Dein Browser unterstützt keine Audio-Wiedergabe.
+        </audio>
+
+        <br>
+
+        <a class="download" href="mein-song.mp3" download>
+            ⬇ MP3 herunterladen
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
